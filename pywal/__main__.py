@@ -15,7 +15,7 @@ import os
 import shutil
 import sys
 
-from .settings import __version__, CACHE_DIR, CONF_DIR
+from .settings import __version__, CACHE_DIR, CONF_DIR # sets env variables
 from . import colors
 from . import export
 from . import image
